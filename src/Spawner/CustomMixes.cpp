@@ -51,5 +51,5 @@ DEFINE_HOOK(0x6BD7DC, InitBootstrapMixFiles_CustomMixes, 0x5)
 
 	CnCnetMIX = GameCreate<MixFileClass>("cncnet.mix");
 
-	return 0;
+	return 0x6BD7E1;
 }
